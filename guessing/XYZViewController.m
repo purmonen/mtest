@@ -55,6 +55,7 @@
         case CORRECT: response = @"Correct"; break;
     }
     self.label.text = response;
+    NSLog(@"GITHUB WORKS!");
 }
 
 - (void)viewDidLoad
